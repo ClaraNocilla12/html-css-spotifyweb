@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-color: rgb(68, 118, 209); */
+}
+
+header{
+   height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    display:flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position:fixed;
+    z-index:-1;
+
+}
+
+header div{
+    width:50%;
+    display: flex; 
+    justify-content: flex-end; 
+    border-radius: 20px;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.404);
+   
+   
+    
+
+}
+
+header div a{
+    width: 100%;
+    font-size: 0.8em;
+    padding:8% 10%; 
+    margin:auto;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    border:1px solid white;
+    border-radius: 20px;
+   
+}
+
+/*ASIDE MAIN*/
+
+aside{
+    height: 85vh;
+    width: 10%;
+   position:relative;
+    background-color: rgb(19, 231, 65);
+    
+}
+
+aside nav{
+    height: 20%;
+    background-color: rgb(197, 0, 0);
+
+}
+
+
+
+
+aside nav ul{
+    height: 100%;
+    
+     display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside nav ul li{
+
+    list-style: none;
+   
+}
+
+
+
+
+.b-aside{
+    height: 15%;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    
+   
+    background-color: rgb(107, 53, 53);
+}
