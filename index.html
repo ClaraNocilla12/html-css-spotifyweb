@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,144 +9,355 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Spotify</title>
 </head>
+
 <body>
-
     <div class="web-app">
-        <div class="header">
-            <a href="#">effettua l'upgrade</a>
-        </div>
-
-        <div class="main">
-
-
-               
-            
-
-
-
+        <div class="web-app-main">
             <div class="aside">
-                <div class="aside-menu">
-                    
+                <div class="aside-nav">
+                    <div class="logo">
+                        <img class="small-logo" src="./asset/img/logo-small.svg" alt="">
+                        <img class="big-logo" src="./asset/img/logo.svg" alt="">
+
+                    </div>
+
                     <ul>
                         <li>
-                            <img class="logo" src="./asset/img/logo.svg" alt="">
-                            <img id="small-logo" src="./asset/img/logo-small.svg" alt="">
-                            
+                            <div>
+                                <img src="./asset/img/home.svg" alt="">
+                                <span>Home</span>
+                            </div>
                         </li>
+
                         <li>
-                            <img src="./asset/img/home.svg" alt="">
-                            <span class="aside-text">Home</span>
+                            <div>
+                                <img src="./asset/img/search.svg" alt="">
+                                <span>Cerca</span>
+                            </div>
                         </li>
+
                         <li>
-                            <img src="./asset/img/search.svg" alt="">
-                            <span class="aside-text">Cerca</span>
+                            <div>
+                                <img src="./asset/img/libreria.svg" alt="">
+                                <span>La tua libreria</span>
+                            </div>
                         </li>
-                        <li>
-                            <img src="./asset/img/libreria.svg" alt="">
-                            <span class="aside-text">La tua libreria</span>
-                        </li>       
-                          
                     </ul>
 
-                    
-                    
-                </div>
-
-                <div class="media-aside-menu">
-                    <h4 >playlist</h4>
-
-                    <i class="fa-solid fa-plus"></i><span>Crea playlist</span>
-
-                </div>
-
-                <div class="bottom-aside">
-                    <img id="download" src="./asset/img/download.svg" alt="">
-                    <img id="profile" src="./asset/img/profile.svg" alt="">
-
-                     </div>
-
-                
-
-            </div>
 
 
-            <div class="main-content">
-                <div>
-                    <nav>
+                    <div class="playlist">
+                        <span>playlist</span>
+                        <div class="create-playlist">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Crea Playlist</span>
+
+                        </div>
+
                         <ul>
                             <li>
-                                <a href="">in evidenza</a>
-                            </li>
-                            <li>
-                                <a href="">podcast</a>
-                            </li>
-                            <li>
-                                <a href="">classifiche</a>
-                            </li>
-                            <li>
-                                <a href="">generi e mood</a>
-                            </li>
-                            <li>
-                                <a href="">nuove uscite</a>
-                            </li>
-                            <li>
-                                <a href="">scopri</a>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
+                                <div>
+                                    Nome Playlist
+                                </div>
                             </li>
                         </ul>
-                    </nav>
+
+                    </div>
+
                 </div>
 
-               
-                     <h2>
-                      Recently played
-                    </h2>
-                    
-                    <div class="albumm-container">
+                <div class="aside-nav-b">
 
-                    
-                          
-                               <img src="./asset/img/metal_lifting.jpg" alt="">
-                       
-                          
+                    <ul>
+                        <li>
 
-                           
-                                <img src="./asset/img/metal_lifting.jpg" alt="">
-                    
-                             
-                    </div>
-               
+                            <div>
+                                <img id="download" src="./asset/img/download.svg" alt="">
+                                <span>Installa app</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img id="profile" src="./asset/img/profile.svg" alt="">
+                                <span>Clara Nocilla</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-      
+
+
+            <div class="main">
+                <div class="upgrade">
+
+                    <div class="button">
+                        esegui l'upgrade
+                    </div>
+
+                </div>
+
+                <div class="nav">
+
+                    <ul>
+                        <li>
+                            <a href="">in evidenza</a>
+                        </li>
+                        <li>
+                            <a href="">podcast</a>
+                        </li>
+                        <li>
+                            <a href="">classifiche</a>
+                        </li>
+                        <li>
+                            <a href="">generi e mood</a>
+                        </li>
+                        <li>
+                            <a href="">nuove uscite</a>
+                        </li>
+                        <li>
+                            <a href="">scopri</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="title">
+                    Recently played
+                </div>
+
+                <div class="container">
+                    <div class="album-container">
+                        <div class="album">
+
+                            <img class="sq-img" src="./asset/img/metal_lifting.jpg" alt="">
+
+
+
+                        </div>
+                        <div class="album-song">
+                            <div>Heavy Metal</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+                    <div class="album-container">
+                        <div class="album">
+
+                            <img class="sq-img" src="./asset/img/stranger.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Stranger things</div>
+
+                            <div>Kyle Dixon</div>
+                        </div>
+                    </div>
+
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" src="./asset/img/aquietplace.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>A Quiet Place</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" src="./asset/img/split.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Split</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+
+                    <div class="album-container">
+                        <div class="album">
 
 
 
 
 
+                            <img class="sq-img" src="./asset/img/cure.jpeg" alt="">
+                        </div>
+                        <div class="album-song">
+                            <div>A cure for wellness</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" src="./asset/img/sinister.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Sinister</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="title">
+                    <div>Creato per Clara Nocilla</div>
+                    <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                </div>
+
+
+                <div class="container">
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" src="./asset/img/radar.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Release Radar</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" src="./asset/img/mixdaily.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Daily Mix 1</div>
+
+                            <div>Subtitle</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="title">
+                    <div>Artisti più popolari</div>
+                    <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                </div>
+
+
+                <div class="container">
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" id="round" src="./asset/img/youg.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Lana Del Rey</div>
+
+
+                        </div>
+                    </div>
+                    <div class="album-container">
+                        <div class="album">
+
+
+
+                            <img class="sq-img" id="round" src="./asset/img/einaudi.jpeg" alt="">
+
+                        </div>
+                        <div class="album-song">
+                            <div>Ludovico Einaudi</div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
         </div>
 
         <div class="footer">
-            <div class="footer-left">
-                <div>
+            <div class="l-footer">
+                <div class="img-container">
                     <img src="./asset/img/sinister.jpeg" alt="">
-                    <div>
-                         <span>Sinister</span> <br>
-                         <span>Brano nome</span>
-                    </div>     
                 </div>
 
-                <div class="left-icons">
+                <div class="title-container">
+                    <span>Sinister</span>
+                    <span>Nome brano</span>
 
+                </div>
+
+                <div class="l-icons-container">
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-regular fa-folder"></i>
 
+
                 </div>
+
 
             </div>
 
-            <div class="footer-center">
-                <div class="footer-center-interact">
+            <div class="c-footer">
+
+                <div class="interact">
                     <i class="fa-solid fa-shuffle"></i>
 
                     <i class="fa-solid fa-backward-step"></i>
@@ -158,26 +370,42 @@
                 </div>
 
                 <div class="song-bar">
-                    <div>
+                    <div class="s-song-bar">
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="r-footer">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-tv"></i>
+                <div class="volume">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="volume-s">
+                        <div>
+
+                        </div>
+
+
 
                     </div>
                 </div>
 
             </div>
 
-            <div class="footer-right">
-
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-solid fa-tv"></i>
-
-                <i class="fa-solid fa-volume-high"></i>
-
-
-            </div>
-
         </div>
 
+
+
+
     </div>
-    
+
+    </div>
+
 </body>
+
 </html>
